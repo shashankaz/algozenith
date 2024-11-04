@@ -191,7 +191,9 @@ const Menu = () => {
                           10:00
                         </span>
                       </div>
-                      <div className={styles.bar}></div>
+                      {idx < resources.length - 1 && (
+                        <div className={styles.bar}></div>
+                      )}
                     </li>
                   ))}
                 </ul>
