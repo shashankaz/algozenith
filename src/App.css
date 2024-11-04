@@ -1,0 +1,11 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #fff 0%, #f1fbfe 100%);
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

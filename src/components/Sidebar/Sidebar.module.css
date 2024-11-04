@@ -1,0 +1,53 @@
+.sidebar {
+  width: 15rem;
+  height: 100vh;
+  padding: 2rem;
+}
+
+.branding {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: #172b4d;
+}
+
+.icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.menu {
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  color: #172b4d;
+  font-size: 1rem;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+  background-color: #d6f4ff;
+  transition: background-color 0.3s;
+}
+
+.menuItem:nth-child(4) {
+  background-color: #d6f4ff;
+  font-weight: 600;
+}

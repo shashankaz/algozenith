@@ -1,0 +1,33 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.notification {
+  cursor: pointer;
+  background-color: #d6f4ff;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+}
+
+.icon {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.profilePicture {
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
